@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(banner.png);
+    background-size: cover;
+    position: relative;
+}
+/* #abc{
+    margin: 15px;
+    mix-blend-mode: color-burn;
+} */
+.image{
+    background-image: url(cafeteria.png);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color: transparent;
+    text-align: center;
+    font-size: 15em;
+}
+.cards{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    gap:5px;
+}
+.cards img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.cards img:hover{
+     width: 100%;
+}
+
